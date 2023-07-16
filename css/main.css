@@ -91,7 +91,7 @@ textarea {
     margin: 50px 0;
   }
   /* ==========================================================================
-  General Styles
+  General/Global Styles
   ========================================================================== */
 html {
   font-size: 1rem;	
@@ -139,12 +139,17 @@ p {
   line-height: 1.125em;
 }
  
-/*img {
-}*/
+img {
+  width: 100%;
+}
  
-/*figure {
-}*/
- 
+figure {
+  margin: 0;
+}
+
+header figure {
+  width: 60%;
+}
 address {
   font-style: normal;
  
@@ -231,6 +236,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -279,6 +288,9 @@ input[type=button] {
 /*Features*/
 
 .features {
+  background: url(../img/unplugged-retreat-features.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -583,9 +595,10 @@ input[type=button] {
       justify-content: space-between;
     }
     
+    .reviews article figure,
     .reviews article div {
-      width: 49%;
-    }
+    width: 49%;
+  }
 
     .reviews h3 {
       width: 75%;
@@ -620,7 +633,7 @@ input[type=button] {
     footer .copyright {
       width: 100%;
     }
-
+  
     /* ==========================================================================
    About Page
    ========================================================================== */
@@ -630,6 +643,7 @@ input[type=button] {
     align-items: flex-start;
     padding-top: 20px;
   }
+  
 
   .mission-content p {
     width: 45%;
@@ -742,7 +756,7 @@ aside .content-wrapper .form {
 footer h4 {
   font-size: 1.875em;
 }
-}
+
 
 /* ==========================================================================
 About Page
@@ -847,3 +861,4 @@ faq h4,
   }
 }
 
+   }

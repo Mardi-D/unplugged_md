@@ -102,8 +102,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
-
- 
 }
  
 ul, 
@@ -297,6 +295,13 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .features article {
@@ -689,28 +694,24 @@ input[type=button] {
 
 
     /********/ FAQ tablet  /********/
-
-
-  .faq .content-wrapper {
-    justify-content: space-between;
+    .faq .content-wrapper{ 
+      justify-content: space-between;
+    }
+  
+    .faq-content {
+      flex-basis: 45%;
+    }
+  
+    .faq h2 {
+      width: 100%;
+    }
+  
+    .faq h4,
+    .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+    }
   }
-
-  .faq-content {
-    flex-basis: 45%;
-  }
-
-  .faq h2 {
-    width: 100%;
-  }
-
-  faq h4,
-  .faq p {
-    font-size: .875em;
-    line-height: 1.125;
-
-}
-
-
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
 
@@ -889,4 +890,4 @@ faq h4,
   }
 }
 
-   }
+   

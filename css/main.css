@@ -220,6 +220,10 @@ footer .social-icons {
 
 }
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,40 +378,6 @@ input[type=button] {
   margin: 0;
 }
 
-/*.content-wrapper {
-  width: 90%;
-}
-
-/*}
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 20px;
-}
-
-.mission-content p {
-  width: 45%;
-}
-
-.contact-section {
-  background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
-
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}*/
-
-
-
 /******FAQ page******/
 .faq {
   background-color: #527158;
@@ -417,7 +387,7 @@ input[type=button] {
 
 .faq .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
@@ -650,14 +620,20 @@ input[type=button] {
     footer p {
       line-height: 1.285;
     }
+
+    footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
   
     footer .copyright {
       width: 100%;
     }
   
-    /* ==========================================================================
-   About Page
-   ========================================================================== */
+    
+   
+    /* ========== About Page =================== */
+
    .mission-content {
     display: flex;
     justify-content: space-between;
@@ -674,8 +650,6 @@ input[type=button] {
 .map figure {
   padding-bottom: 45.5%;
 }
-
-
 
   .contact-section .content-wrapper h2 {
     width: 80%;

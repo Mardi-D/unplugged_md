@@ -86,7 +86,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .content-wrapper { outline: 3px dashed purple;
+   .content-wrapper { 
+   /* outline: 3px dashed purple;*/
     width: 90%;
     margin: 50px 0;
   }
